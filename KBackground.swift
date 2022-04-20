@@ -1,4 +1,3 @@
-
 import Scenes
 import Igis
 
@@ -8,11 +7,7 @@ import Igis
 
 
 class Background : RenderableEntity {
-    var questions = ["What is 1+1?", "What is the first planet?", "Who is the first president?"]
-    var answers = ["3, 11, 2, 4, Mercury, Earth, Venus, Uranus Gallo, Washington, Adams, Jeferson"];
-    var correctAnswer = ["2, Mercury, Washingtion"]
-    var score: Int = 0;
-    
+
     init() {
 
         // Using a meaningful name can be helpful for debugging
@@ -22,32 +17,63 @@ class Background : RenderableEntity {
 
 
     override func setup(canvasSize:Size, canvas:Canvas) {
-        if answers == correctAnswer {
-            score += 1;
-        } else {
-            score -= 1;
-        }
-    
-
+        var questions = ["What is 1+1?", "What is the first planet?", "Who is the first president?"]
+        var answers = ["3, 11, 2, 4, Mercury, Earth, Venus, Uranus Gallo, Washington, Adams, Jeferson"];
+        var correctAnswer = ["2, Mercury, Washingtion"]
+        var score: Int = 0;
+        var feedback: Text
         
-        //Text
 
-        //Background
-        //Text2
-        let  text = Text(location:Point(x:500, y:50), text:"Welcome to KQUIZ!")
-        text.font = "50pt Arial "
-          canvas.render(text)
+
+        let  text = Text(location:Point(x:500, y:50), text:"Welcome to the KQUIZ Game")
+        let question = Text(location:Point(x:500, y:500), text: questions[1])
+        let questionStrokeStyle = StrokeStyle(color:Color(.red))
+        let linewidthQuestion = LineWidth(width:5)
+        //        canvas.render(question)
+        text.font = "50pt times-new-roman"
 
         let backgroundColorRect = Rect(topLeft:Point(x:0, y:0), size:Size(width:4000, height:2000))
         let backgroundColorrectangle = Rectangle(rect:backgroundColorRect)
         let backgroundColorFillStyle = FillStyle(color:Color(.antiquewhite))
         let backgroundColorFillStyle2 = FillStyle(color:Color(.black))
-        let backgroundColorStrokeStyle = FillStyle(color:Color(.black))          
+        let backgroundColorStrokeStyle = StrokeStyle(color:Color(.red))
+
         canvas.render(backgroundColorFillStyle,  backgroundColorrectangle)
-        canvas.render(backgroundColorFillStyle2, backgroundColorStrokeStyle, text)
 
 
-       //  canvas.render(text)
+
+
+
+        let gameRect =  Rect(topLeft:Point(x:450, y:200), size:Size(width:1000, height:600))
+        let gameRectangle = Rectangle(rect:gameRect)
+        var gameRectangleFillStyle = FillStyle(color:Color(.white))
+        let gameRectangleStrokeStyle = StrokeStyle(color:Color(.red))
+        let lineWidth = LineWidth(width:5)
+        canvas.render(gameRectangleFillStyle, gameRectangleStrokeStyle, lineWidth,gameRectangle)
+
+
+        //Text
+
+        canvas.render(backgroundColorFillStyle2,backgroundColorStrokeStyle,text)
+        canvas.render(questionStrokeStyle, linewidthQuestion,question)
+ /*      
+        if answers == correctAnswer {
+             feedback = Text(location:Point(x:250, y:50), text: "You guessed the answer! Moving on!")    
+            
+             gameRectangleFillStyle = FillStyle(color:Color(.green))
+               canvas.render(gameRectangleFillStyle, gameRectangleStrokeStyle, lineWidth,gameRectangle)
+        } else {
+
+            feedback = Text(location:Point(x:250, y:50), text: "Wrong guess. Please try again!")
+            gameRectangleFillStyle = FillStyle(color:Color(.red))
+              canvas.render(gameRectangleFillStyle, gameRectangleStrokeStyle, lineWidth,gameRectangle)
+        }
+
+*/
+        //canvas.render(text)
+
+
+
 
     }
 }
