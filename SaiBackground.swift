@@ -18,8 +18,8 @@ class Background : RenderableEntity {
 
       override func setup(canvasSize:Size, canvas:Canvas) {
           var questions = ["What is 1+1?", "What is the first planet?", "Who is the first president?"]
-          var answers = ["3, 11, 2, 4, Mercury, Earth, Venus, Uranus Gallo, Washington, Adams, Jeferson"];
-          var correctAnswer = ["2, Mercury, Washingtion"]
+          var answers = [("3","2", "1" , "100"),("Mercury"," Earth", "Venus", "Uranus"),("Gallo", "Washington", "Adams", "Jefferson")]
+          var correctAnswer = ["2","Mercury"," Washingtion"]
           var score: Int = 0;
 
 
@@ -27,7 +27,7 @@ class Background : RenderableEntity {
 
 
           let  text = Text(location:Point(x:500, y:50), text:"Welcome to the KQUIZ Game")
-          let question = Text(location:Point(x:500, y:500), text: questions[1])
+          let question = Text(location:Point(x:500, y:500), text: answers[0])
           let questionStrokeStyle = StrokeStyle(color:Color(.red))
           let linewidthQuestion = LineWidth(width:5)
 //        canvas.render(question)
