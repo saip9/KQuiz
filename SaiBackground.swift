@@ -1,3 +1,4 @@
+
 import Scenes
 import Igis
 
@@ -17,8 +18,12 @@ class Background : RenderableEntity {
 
 
       override func setup(canvasSize:Size, canvas:Canvas) {
-          var questions = ["What is 1+1?", "What is the first planet?", "Who is the first president?"]
-          var answers = [("3","2", "1" , "100"),("Mercury"," Earth", "Venus", "Uranus"),("Gallo", "Washington", "Adams", "Jefferson")]
+          var questions = ["What is 500+690?", "What is the first planet?", "Who is the first president?"]
+          var answers = [["1190","1095", "987", "1290"],["Mercury"," Earth", "Venus", "Uranus"],["Gallo", "Washington", "Adams", "Jefferson"]]
+          //let answersVertical = answers.joined().joined(separator: "\n")
+          //3 2 1 100
+          //Mercury Earth Venus Uranus
+          //Gallo Was
           var correctAnswer = ["2","Mercury"," Washingtion"]
           var score: Int = 0;
 
@@ -27,7 +32,8 @@ class Background : RenderableEntity {
 
 
           let  text = Text(location:Point(x:500, y:50), text:"Welcome to the KQUIZ Game")
-          let question = Text(location:Point(x:500, y:500), text: answers[0])
+          let question = Text(location:Point(x:500, y:500), text: questions[0])
+          let answerDisplay = Text(location:Point(x: 500, y: 700), text: (answers[0].joined(separator: "\n ")))
           let questionStrokeStyle = StrokeStyle(color:Color(.red))
           let linewidthQuestion = LineWidth(width:5)
 //        canvas.render(question)
@@ -57,8 +63,9 @@ class Background : RenderableEntity {
 
                  canvas.render(backgroundColorFillStyle2,backgroundColorStrokeStyle,text)
            canvas.render(questionStrokeStyle, linewidthQuestion,question)
+           canvas.render(questionStrokeStyle, linewidthQuestion,answerDisplay)
 
-          
+           
 //canvas.render(text)
 
 
