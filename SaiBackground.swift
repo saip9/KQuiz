@@ -18,24 +18,16 @@ class Background : RenderableEntity {
 
 
       override func setup(canvasSize:Size, canvas:Canvas) {
-          var questions = ["What is 500+690?", "What is the first planet?", "Who is the first president?"]
-          var answers = [["1190","1095", "987", "1290"],["Mercury"," Earth", "Venus", "Uranus"],["Gallo", "Washington", "Adams", "Jefferson"]]
-          //let answersVertical = answers.joined().joined(separator: "\n")
-          //3 2 1 100
-          //Mercury Earth Venus Uranus
-          //Gallo Was
-          var correctAnswer = ["2","Mercury"," Washingtion"]
-          var score: Int = 0;
 
 
 
 
 
           let  text = Text(location:Point(x:500, y:50), text:"Welcome to the KQUIZ Game")
-          let question = Text(location:Point(x:500, y:500), text: questions[0])
-          let answerDisplay = Text(location:Point(x: 500, y: 700), text: (answers[0].joined(separator: "\n ")))
-          let questionStrokeStyle = StrokeStyle(color:Color(.red))
-          let linewidthQuestion = LineWidth(width:5)
+//          let question = Text(location:Point(x:500, y:500), text: questions[0])
+            //        let answerDisplay = Text(location:Point(x: 500, y: 700), text: (answers[0].joined(separator: "\n ")))
+       //   let questionStrokeStyle = StrokeStyle(color:Color(.red))
+   //       let linewidthQuestion = LineWidth(width:5)
 //        canvas.render(question)
            text.font = "50pt times-new-roman"
  
@@ -62,16 +54,17 @@ class Background : RenderableEntity {
            //Text
 
                  canvas.render(backgroundColorFillStyle2,backgroundColorStrokeStyle,text)
-           canvas.render(questionStrokeStyle, linewidthQuestion,question)
-           canvas.render(questionStrokeStyle, linewidthQuestion,answerDisplay)
+//           canvas.render(questionStrokeStyle, linewidthQuestion,question)
+//           canvas.render(questionStrokeStyle, linewidthQuestion,answerDisplay)
 
            
 //canvas.render(text)
-
+   
 
 
 
 }
 }
+
 
 
