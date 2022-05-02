@@ -1,5 +1,5 @@
 import Scenes
-
+import Foundation
   /*
      This class is responsible for the background Layer.
      Internally, it maintains the RenderableEntities for this layer.
@@ -14,8 +14,9 @@ class BackgroundLayer : Layer {
           super.init(name:"Background")
 
           // We insert our RenderableEntities in the constructor
+          let randomQuestion = Int.random(in: 1...49)
           insert(entity:background, at:.back)
-          insert(entity:QuestionDisplay(questionIndex: 0), at: .front)
+          insert(entity:QuestionDisplay(questionIndex: randomQuestion), at: .front)
 
       }
       
