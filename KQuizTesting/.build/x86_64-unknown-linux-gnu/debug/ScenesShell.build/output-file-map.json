@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/master.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/Background.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/Background.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/Background.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/Background~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/Background.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/BackgroundLayer.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/BackgroundLayer.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/BackgroundLayer.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/BackgroundLayer~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/BackgroundLayer.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/ForegroundLayer.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ForegroundLayer.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ForegroundLayer.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ForegroundLayer~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ForegroundLayer.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/InteractionLayer.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/InteractionLayer.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/InteractionLayer.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/InteractionLayer~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/InteractionLayer.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/MainScene.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/MainScene.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/MainScene.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/MainScene~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/MainScene.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuestionDisplay.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionDisplay.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionDisplay.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionDisplay~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionDisplay.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuestionLibrary.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionLibrary.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionLibrary.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionLibrary~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionLibrary.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuizQuestion.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuizQuestion.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuizQuestion.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuizQuestion~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuizQuestion.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/ShellDirector.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ShellDirector.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ShellDirector.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ShellDirector~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ShellDirector.swiftdeps"
+  },
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/main.swift": {
+    "dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/main.d",
+    "object": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/main.swift.o",
+    "swiftmodule": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/main.swiftdeps"
+  }
+}

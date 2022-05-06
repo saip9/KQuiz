@@ -14,9 +14,9 @@ class BackgroundLayer : Layer {
           super.init(name:"Background")
 
           // We insert our RenderableEntities in the constructor
-                    let randomQuestion = Int.random(in: 1...49)
-          insert(entity:background, at:.back)
-          insert(entity:QuestionDisplay(questionIndex: randomQuestion), at: .front)
-         
+          let randomQuestion = Int.random(in: 1...48)
+        insert(entity:background, at:.back)
+        insert(entity:QuestionDisplay(questionIndex: randomQuestion), at: .front)
+      
       }
 }

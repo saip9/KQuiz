@@ -1,0 +1,174 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ScenesShell-debug.module" : {
+      "executable" : "/opt/swift-5.6.1-RELEASE-ubuntu20.04/usr/bin/swiftc",
+      "importPath" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/Background.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/BackgroundLayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/ForegroundLayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/InteractionLayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/MainScene.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuestionDisplay.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuestionLibrary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuizQuestion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/ShellDirector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "ScenesShell",
+      "moduleOutputPath" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ScenesShell.swiftmodule",
+      "objects" : [
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/Background.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/BackgroundLayer.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ForegroundLayer.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/InteractionLayer.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/MainScene.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionDisplay.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionLibrary.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuizQuestion.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ShellDirector.swift.o",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-color-diagnostics",
+        "-I",
+        "/usr/local/lib/merlin/Igis-1.3.7/Igis/.build/debug",
+        "-L",
+        "/usr/local/lib/merlin/Igis-1.3.7/Igis/.build/debug",
+        "-lIgis",
+        "-I",
+        "/usr/local/lib/merlin/Scenes-1.1.5/Scenes/.build/debug",
+        "-L",
+        "/usr/local/lib/merlin/Scenes-1.1.5/Scenes/.build/debug",
+        "-lScenes",
+        "-I",
+        "/usr/local/lib/merlin/ScenesControls-0.1.0/ScenesControls/.build/debug",
+        "-L",
+        "/usr/local/lib/merlin/ScenesControls-0.1.0/ScenesControls/.build/debug",
+        "-lScenesControls"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/Background.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/BackgroundLayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ForegroundLayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/InteractionLayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/MainScene.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionDisplay.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuestionLibrary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/QuizQuestion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ShellDirector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build/ScenesShell.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/Background.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/BackgroundLayer.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/ForegroundLayer.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/InteractionLayer.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/MainScene.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuestionDisplay.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuestionLibrary.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/QuizQuestion.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/ShellDirector.swift",
+        "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/main.swift"
+      ],
+      "tempsPath" : "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/.build/x86_64-unknown-linux-gnu/debug/ScenesShell.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

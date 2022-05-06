@@ -1,7 +1,7 @@
 import Foundation
 import Scenes
 import Igis
-
+import ScenesControls
   /*
      This class is responsible for rendering the background.
    */
@@ -14,7 +14,6 @@ class Background : RenderableEntity {
 
 //    init(sourceURL:URL, shouldLoop:Bool = false) {
          init() {
-
         guard let backgroundURL = URL(string:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3")
         else {
               fatalError("Failed to create URL for backgroundAudio")
@@ -22,9 +21,26 @@ class Background : RenderableEntity {
 
         backgroundSound =  Audio(sourceURL:backgroundURL, shouldLoop:true)
 
-            super.init(name:"Background")  
+        super.init(name:"Background")
+//                let independentButton = Button(name:"Alone", labelString:"Next", topLeft:Point(x:1150, y:550))
+//        insert(entity:independentButton, at:.front)
+ //       independentButton.clickHandler = onButtonClickHandler
+
      
-    }
+         }
+
+             func clearQuestion(canvas: Canvas) {
+//        if let canvasSize = canvas.canvasSize {
+            let canvasRect = Rect(topLeft:Point(), size:Size(width:1300, height:600))
+            let canvasClearRectangle = Rectangle(rect:canvasRect, fillMode:.clear)
+            let clearRectangleFillStyle = FillStyle(color:Color(.white))
+           let clearRectangleStrokeStyle = StrokeStyle(color:Color(.red))
+           let clearlineWidth = LineWidth(width:5)
+
+           canvas.render(clearRectangleFillStyle, clearRectangleStrokeStyle, clearlineWidth, canvasClearRectangle)
+        }
+
+
 
 
     
@@ -49,7 +65,7 @@ class Background : RenderableEntity {
        //   let questionStrokeStyle = StrokeStyle(color:Color(.red))
    //       let linewidthQuestion = LineWidth(width:5)
 //        canvas.render(question)
-           text.font = "30pt times-new-roman"
+          text.font = "25pt times-new-roman"
  
            let backgroundColorRect = Rect(size: canvasSize)
            let backgroundColorrectangle = Rectangle(rect:backgroundColorRect)
@@ -59,7 +75,7 @@ class Background : RenderableEntity {
 
      canvas.render(backgroundColorFillStyle,  backgroundColorrectangle)
      
-           let gameRect =  Rect(topLeft:Point(x:200, y:100), size:Size(width:1500, height:600))
+           let gameRect =  Rect(topLeft:Point(x:100, y:100), size:Size(width:1300, height:600))
            let gameRectangle = Rectangle(rect:gameRect)
            let gameRectangleFillStyle = FillStyle(color:Color(.white))
            let gameRectangleStrokeStyle = StrokeStyle(color:Color(.red))

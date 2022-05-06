@@ -1,0 +1,12 @@
+version: "Swift version 5.6.1 (swift-5.6.1-RELEASE)"
+options: "4b9f67de74d374f730de9eabc92be09f015a218cb2be2f01df4a0e3f44a4fc26"
+build_start_time: [1651623714, 912909030]
+build_end_time: [1651623717, 405972957]
+inputs:
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/Background.swift": [1651623427, 647431850]
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/BackgroundLayer.swift": [1651623427, 639431953]
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/ForegroundLayer.swift": [1651623427, 651431560]
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/InteractionLayer.swift": [1651623427, 655431509]
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/MainScene.swift": [1651623427, 659431457]
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/ShellDirector.swift": [1651623427, 667430877]
+  "/home/sri-nagasai-siva-paladugu/Projects/KQuizTesting/Sources/ScenesShell/main.swift": [1651623427, 663431167]
