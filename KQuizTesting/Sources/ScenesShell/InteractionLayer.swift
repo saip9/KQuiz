@@ -227,7 +227,7 @@ func onButtonClickHandler19(control:Control, localLocation:Point) {
         
         if let button = control as? Button {
             let randomQuestion = Int.random(in: 1...48)
-    //        let userAnswer = quizQuestions[question.questionIndex].answers[0]
+    //        let userAnswer = quizQuestions[questionIndex].answers[0]
            
         }
 
