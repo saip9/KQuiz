@@ -108,34 +108,7 @@
           "usr": "s:11ScenesShell10BackgroundCACycfc",
           "mangledName": "$s11ScenesShell10BackgroundCACycfc",
           "moduleName": "ScenesShell",
-          "declAttributes": [
-            "RawDocComment"
-          ],
           "init_kind": "Designated"
-        },
-        {
-          "kind": "Function",
-          "name": "clearQuestion",
-          "printedName": "clearQuestion(canvas:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Canvas",
-              "printedName": "Igis.Canvas",
-              "usr": "s:4Igis6CanvasC"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:11ScenesShell10BackgroundC13clearQuestion6canvasy4Igis6CanvasC_tF",
-          "mangledName": "$s11ScenesShell10BackgroundC13clearQuestion6canvasy4Igis6CanvasC_tF",
-          "moduleName": "ScenesShell",
-          "isOpen": true,
-          "funcSelfKind": "NonMutating"
         },
         {
           "kind": "Function",
@@ -167,8 +140,7 @@
           "overriding": true,
           "isOpen": true,
           "declAttributes": [
-            "Override",
-            "RawDocComment"
+            "Override"
           ],
           "funcSelfKind": "NonMutating"
         },
@@ -545,7 +517,8 @@
           "declAttributes": [
             "HasInitialValue",
             "Final",
-            "HasStorage"
+            "HasStorage",
+            "RawDocComment"
           ],
           "fixedbinaryorder": 0,
           "isLet": true,
@@ -577,6 +550,506 @@
           ]
         },
         {
+          "kind": "Var",
+          "name": "background2",
+          "printedName": "background2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC11background2AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC11background2AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC11background2AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC11background2AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background3",
+          "printedName": "background3",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC11background3AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC11background3AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC11background3AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC11background3AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background4",
+          "printedName": "background4",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC11background4AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC11background4AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC11background4AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC11background4AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background5",
+          "printedName": "background5",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC11background5AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC11background5AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC11background5AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC11background5AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background6",
+          "printedName": "background6",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC11background6AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC11background6AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC11background6AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC11background6AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background7",
+          "printedName": "background7",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC11background7AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC11background7AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC11background7AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC11background7AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background8",
+          "printedName": "background8",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC11background8AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC11background8AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC11background8AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC11background8AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background9",
+          "printedName": "background9",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC11background9AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC11background9AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 8,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC11background9AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC11background9AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background10",
+          "printedName": "background10",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC12background10AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC12background10AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 9,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC12background10AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC12background10AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "background11",
+          "printedName": "background11",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Background",
+              "printedName": "ScenesShell.Background",
+              "usr": "s:11ScenesShell10BackgroundC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11ScenesShell16InteractionLayerC12background11AA10BackgroundCvp",
+          "mangledName": "$s11ScenesShell16InteractionLayerC12background11AA10BackgroundCvp",
+          "moduleName": "ScenesShell",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 10,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Background",
+                  "printedName": "ScenesShell.Background",
+                  "usr": "s:11ScenesShell10BackgroundC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11ScenesShell16InteractionLayerC12background11AA10BackgroundCvg",
+              "mangledName": "$s11ScenesShell16InteractionLayerC12background11AA10BackgroundCvg",
+              "moduleName": "ScenesShell",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
           "kind": "Constructor",
           "name": "init",
           "printedName": "init()",
@@ -592,110 +1065,310 @@
           "usr": "s:11ScenesShell16InteractionLayerCACycfc",
           "mangledName": "$s11ScenesShell16InteractionLayerCACycfc",
           "moduleName": "ScenesShell",
-          "declAttributes": [
-            "RawDocComment"
-          ],
           "init_kind": "Designated"
         },
         {
-          "kind": "Var",
-          "name": "x",
-          "printedName": "x",
+          "kind": "Function",
+          "name": "onButtonClickHandler10",
+          "printedName": "onButtonClickHandler10(control:localLocation:)",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
             }
           ],
-          "declKind": "Var",
-          "usr": "s:11ScenesShell16InteractionLayerC1xSivp",
-          "mangledName": "$s11ScenesShell16InteractionLayerC1xSivp",
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler107control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler107control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
           "moduleName": "ScenesShell",
           "isOpen": true,
           "declAttributes": [
-            "HasInitialValue",
-            "HasStorage",
             "RawDocComment"
           ],
-          "fixedbinaryorder": 1,
-          "hasStorage": true,
-          "accessors": [
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler11",
+          "printedName": "onButtonClickHandler11(control:localLocation:)",
+          "children": [
             {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int",
-                  "printedName": "Swift.Int",
-                  "usr": "s:Si"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:11ScenesShell16InteractionLayerC1xSivg",
-              "mangledName": "$s11ScenesShell16InteractionLayerC1xSivg",
-              "moduleName": "ScenesShell",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Transparent"
-              ],
-              "accessorKind": "get"
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
             },
             {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "Int",
-                  "printedName": "Swift.Int",
-                  "usr": "s:Si"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:11ScenesShell16InteractionLayerC1xSivs",
-              "mangledName": "$s11ScenesShell16InteractionLayerC1xSivs",
-              "moduleName": "ScenesShell",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Transparent"
-              ],
-              "accessorKind": "set"
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
             },
             {
-              "kind": "Accessor",
-              "name": "Modify",
-              "printedName": "Modify()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:11ScenesShell16InteractionLayerC1xSivM",
-              "mangledName": "$s11ScenesShell16InteractionLayerC1xSivM",
-              "moduleName": "ScenesShell",
-              "implicit": true,
-              "isOpen": true,
-              "declAttributes": [
-                "Transparent"
-              ],
-              "accessorKind": "_modify"
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
             }
-          ]
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler117control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler117control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler12",
+          "printedName": "onButtonClickHandler12(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler127control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler127control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler13",
+          "printedName": "onButtonClickHandler13(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler137control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler137control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler14",
+          "printedName": "onButtonClickHandler14(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler147control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler147control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler15",
+          "printedName": "onButtonClickHandler15(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler157control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler157control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler16",
+          "printedName": "onButtonClickHandler16(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler167control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler167control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler17",
+          "printedName": "onButtonClickHandler17(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler177control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler177control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler18",
+          "printedName": "onButtonClickHandler18(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler187control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler187control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler19",
+          "printedName": "onButtonClickHandler19(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC22onButtonClickHandler197control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC22onButtonClickHandler197control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
         },
         {
           "kind": "Function",
@@ -725,6 +1398,42 @@
           "mangledName": "$s11ScenesShell16InteractionLayerC20onButtonClickHandler7control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
           "moduleName": "ScenesShell",
           "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onButtonClickHandler0",
+          "printedName": "onButtonClickHandler0(control:localLocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Control",
+              "printedName": "ScenesControls.Control",
+              "usr": "s:14ScenesControls7ControlC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Point",
+              "printedName": "Igis.Point",
+              "usr": "s:4Igis5PointV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11ScenesShell16InteractionLayerC21onButtonClickHandler07control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "mangledName": "$s11ScenesShell16InteractionLayerC21onButtonClickHandler07control13localLocationy0A8Controls7ControlC_4Igis5PointVtF",
+          "moduleName": "ScenesShell",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
           "funcSelfKind": "NonMutating"
         },
         {
@@ -1246,7 +1955,8 @@
       "moduleName": "ScenesShell",
       "declAttributes": [
         "HasInitialValue",
-        "HasStorage"
+        "HasStorage",
+        "RawDocComment"
       ],
       "isLet": true,
       "hasStorage": true
@@ -1273,7 +1983,8 @@
           "mangledName": "$s11ScenesShell12QuizQuestionV8questionSSvp",
           "moduleName": "ScenesShell",
           "declAttributes": [
-            "HasStorage"
+            "HasStorage",
+            "RawDocComment"
           ],
           "fixedbinaryorder": 0,
           "isLet": true,
@@ -1462,6 +2173,9 @@
       "usr": "s:11ScenesShell12QuizQuestionV",
       "mangledName": "$s11ScenesShell12QuizQuestionV",
       "moduleName": "ScenesShell",
+      "declAttributes": [
+        "RawDocComment"
+      ],
       "conformances": [
         {
           "kind": "Conformance",

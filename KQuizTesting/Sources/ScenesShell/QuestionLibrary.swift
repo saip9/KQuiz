@@ -1,3 +1,7 @@
+
+// Created an array which includes about 50 questions and four answer choices for each question.
+// Created the correctAnswerIndex to check with the userAnswer later in the file InteractionLayer.swift
+
 let quizQuestions = [
   QuizQuestion(question: "Which Disney character famously leaves a glass slipper behind at royal ball?",
                answers: ["Elsa","Cinderella", "Snow White", "Ariel"], correctAnswerIndex: 1),
